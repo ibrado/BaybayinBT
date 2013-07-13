@@ -1,5 +1,5 @@
 /*
-   Baybayin BigTime
+   Baybayin BT
    A Big Time watch, modified by Alex Ibrado <alex@ibrado.org>
 
    A digital watch with large digits.
@@ -30,7 +30,7 @@
 #include "resource_ids.auto.h"
 
 #define MY_UUID {0xAF, 0x0F, 0x1A, 0x9E, 0xF8, 0xDE, 0x40, 0x47, 0xBA, 0xD4, 0x9F, 0xCF, 0xD1, 0xD7, 0x3E, 0x82}
-PBL_APP_INFO(MY_UUID, "Baybayin BigTime", "Pebble Technology/Alex Ibrado", 0x5, 0x0, RESOURCE_ID_IMAGE_MENU_ICON, APP_INFO_WATCH_FACE);
+PBL_APP_INFO(MY_UUID, "Baybayin BT", "Pebble Technology + Alex Ibrado", 0x5, 0x0, RESOURCE_ID_IMAGE_MENU_ICON, APP_INFO_WATCH_FACE);
 
 Window window;
 
@@ -194,7 +194,7 @@ void handle_minute_tick(AppContextRef ctx, PebbleTickEvent *t) {
 void handle_init(AppContextRef ctx) {
   (void)ctx;
 
-  window_init(&window, "Baybayin BigTime");
+  window_init(&window, "Baybayin BT");
   window_stack_push(&window, true);
   window_set_background_color(&window, GColorBlack);
 
