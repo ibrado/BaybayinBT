@@ -38,7 +38,7 @@ To compile, install Pebble SDK in e.g. pebble-dev then
 cd pebble-dev/Pebble/watches
 git clone http://github.com/ibrado/BaybayinBT
 
-~/pebble-dev/Pebble/tools/create_pebble_project.py --symlink-only ~/pebble-dev/Pebble/sdk/BaybayinBT
+~/pebble-dev/Pebble/tools/create_pebble_project.py --symlink-only ~/pebble-dev/Pebble/sdk/ BaybayinBT
 
 cd BaybayinBT
 ./waf configure
